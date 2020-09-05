@@ -5,6 +5,8 @@ let pic = document.createElement("img");
     pic.src = (sun);
     setPic = "sunny";
     document.body.appendChild(pic);
+    document.body.style.background = "black";
+
     
 pic.addEventListener("click", function(){
     
